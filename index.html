@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Molan">
+    
+    
+    
+    
+    
+    
+    <title>墨藍</title>
+    <!-- inject:style -->
+    <link href="smolan.github.io/css/style.css" rel="stylesheet" type="text/css">
+    <!-- endinject -->
+    <style>
+        .cube-loading {
+            top: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: url('smolan.github.io/images/lg/loading.gif') no-repeat center center;
+            background-color: rgba(0,0,0,.7);
+        }
+
+        .cube-loading.out {
+            display: none;
+        }
+
+        .cube-loading:before {
+            display: block;
+            content: 'Loading';
+            position: relative;
+            width: 100%;
+            top: 50%;
+            right: -50%;
+            color: #fff;
+        }
+
+        @media(max-width: 768px) {
+            .cube-loading:before {
+                font-size: 1.2em;
+                transform: translate(-24px,20px);
+                -webkit-transform: translate(-24px,20px);
+                -o-transform: translate(-24px,20px);
+                -ms-transform: translate(-24px,20px);
+            }
+        }
+
+        @media(min-width: 768px) {
+            .cube-loading:before {
+
+            }
+        }
+    </style>
+    
+</head>
+<body>
+<div class="cube-body">
+    <nav id="cube-top-memu" class="cube-menu">
+    <ul class="cube-menu-collapse">
+        
+        <li>
+            <i class="cube-icon cube-icon-home" aria-hidden="true"></i>
+            <a href="smolan.github.io/">首页</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-archive" aria-hidden="true"></i>
+            <a href="smolan.github.io/archives">归档</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-categories" aria-hidden="true"></i>
+            <a href="smolan.github.io/categories">分类</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-tags" aria-hidden="true"></i>
+            <a href="smolan.github.io/tags">标签</a>
+        </li>
+        
+        <li>
+            <i class="cube-icon cube-icon-about" aria-hidden="true"></i>
+            <a href="smolan.github.io/about-me">关于我</a>
+        </li>
+        
+    </ul>
+</nav>
+<nav class="cube-side-menu" id="cube-side-menu">
+    <ul class="cube-menu-list">
+        
+        <li>
+            <a class="lrc-control">Open Lyrics</a>
+        </li>
+        
+        <li>
+            <a class="scroll-to-top">Top</a>
+        </li>
+    </ul>
+</nav>
+    <header class="cube-header" id="cube-header">
+    <img src=" http://cube-1252774894.cosgz.myqcloud.com/background.png " alt="头部背景图片">
+    
+    <div class="cube-type">
+        <span class="cube-typed-title">MolanのHome</span>
+        <span class="cube-typed-cursor">|</span>
+    </div>
+    
+</header>
+
+    <style>
+        nav.cube-menu:before {
+            content: '';
+            visibility: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 44px;
+        
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+        
+            z-index: -1;
+            background-image: url('http://cube-1252774894.cosgz.myqcloud.com/background.png');
+            background-repeat: no-repeat;
+            background-position: center -356px;
+            background-size: cover;
+            background-color: transparent;
+        }
+
+        header.cube-background.cube-header-background {
+            visibility: hidden;
+            background-image: url('http://cube-1252774894.cosgz.myqcloud.com/background.png');
+            background-position: center -400px;
+        }
+    </style>
+    <header class="cube-background cube-header-background">
+        
+        <div class="cube-type">
+            <span class="cube-typed-title">MolanのHome</span>
+            <span class="cube-typed-cursor">|</span>
+        </div>
+        
+    </header>
+    <div class="load-header-background"></div>
+    <script>
+        (function (window) {
+
+            window.headerModule = {}
+            window.headerModule.image = {
+                width: '2000',
+                height: '1414'
+            }
+
+        })(window)
+    </script>
+    
+    <div class="cube-content">
+        <div class="cube-left">
+            
+<div class="cube-excerpt" id="cube-excerpt-机器视觉网站导航">
+    <header class="cube-excerpt-header">
+        <h1><a href="smolan.github.io/2019/11/19/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%BD%91%E7%AB%99%E5%AF%BC%E8%88%AA/">机器视觉网站导航</a></h1>
+        <div class="cube-excerpt-header-msg">
+            <div class="cube-excerpt-date">
+                <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
+                2019-11-19
+            </div>
+            <div class="cube-excerpt-tags">
+                <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
+                
+            </div>
+        </div>
+    </header>
+    <article class="cube-excerpt-entry cube-markdown">
+        
+        
+           <h2 id="1-ImageMagic"><a href="#1-ImageMagic" class="headerlink" title="1.ImageMagic"></a>1.ImageMagic</h2><p>Use ImageMagick® to create, edit, compose, or convert bitmap images.  It can read and write images in a variety of formats (over 200) including PNG, JPEG, GIF, HEIC, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG.  Use ImageMagick to resize, flip, mirror, rotate, distort, shear and transform images, adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses and Bézier curves.<br>link：<a href="http://www.imagemagick.org/script/index.php" target="_blank" rel="noopener">ImageMagic</a></p>
+<h2 id="2-FFMPEG"><a href="#2-FFMPEG" class="headerlink" title="2.FFMPEG"></a>2.FFMPEG</h2><p>A complete, cross-platform solution to record, convert and stream audio and video.<br>link: <a href="http://www.ffmpeg.org/" target="_blank" rel="noopener">FFMPEG</a></p>
+<h2 id="3-VideoInput"><a href="#3-VideoInput" class="headerlink" title="3.VideoInput"></a>3.VideoInput</h2><p>a free windows video capture library<br>link:<a href="http://www.muonics.net/school/spring05/videoInput/" target="_blank" rel="noopener">VideoInput</a></p>
+<h2 id="4-ARToolKit"><a href="#4-ARToolKit" class="headerlink" title="4.ARToolKit"></a>4.ARToolKit</h2><p>ARToolKit is a software library for building Augmented Reality (AR) applications. These are applications<br>that involve the overlay of virtual imagery on the real world. For example, in the image to the right a<br>three-dimensional virtual character appears standing on a real card. It can be seen by the user in the<br>head set display they are wearing. When the user moves the card, the virtual character moves with it and<br>appears attached to the real object.<br>link:<a href="http://www.hitl.washington.edu/artoolkit/" target="_blank" rel="noopener">ARToolKit</a></p>
+<h2 id="5-PTAM"><a href="#5-PTAM" class="headerlink" title="5.PTAM"></a>5.PTAM</h2><p>PTAM (Parallel Tracking and Mapping) is a camera tracking system for augmented reality. It requires no markers, pre-made maps, known templates, or inertial sensors.<br>link:<a href="http://www.robots.ox.ac.uk/~gk/PTAM/" target="_blank" rel="noopener">PTAM</a></p>
+<h2 id="6-Image-and-Visual-Representation-Lab-IVRL"><a href="#6-Image-and-Visual-Representation-Lab-IVRL" class="headerlink" title="6.Image and Visual Representation Lab IVRL"></a>6.Image and Visual Representation Lab IVRL</h2><p>很多与图像和视觉有关的项目<br>link:<a href="https://ivrl.epfl.ch/links/" target="_blank" rel="noopener">IVRL</a></p>
+<h2 id="7-VLFeat"><a href="#7-VLFeat" class="headerlink" title="7.VLFeat"></a>7.VLFeat</h2><p>The VLFeat open source<br>  library implements popular computer vision algorithms specializing<br>  in image understanding and local features extraction and<br>  matching. Algorithms include Fisher Vector, VLAD, SIFT, MSER,<br>  k-means, hierarchical k-means, agglomerative information bottleneck,<br>  SLIC superpixels, quick shift superpixels, large scale SVM training,<br>  and many others. It is written in C for efficiency and<br>  compatibility, with interfaces in MATLAB for ease of use, and<br>  detailed documentation throughout. It supports Windows, Mac OS X,<br>  and Linux. The latest version of VLFeat<br>  is 0.9.21.<br>  link:<a href="http://www.vlfeat.org/" target="_blank" rel="noopener">VLFeat</a></p>
+<h2 id="8-Oxford-Andrew-Zisserman"><a href="#8-Oxford-Andrew-Zisserman" class="headerlink" title="8.Oxford:Andrew Zisserman"></a>8.Oxford:Andrew Zisserman</h2><p>  link:<a href="http://www.robots.ox.ac.uk/~vgg/hzbook/code/" target="_blank" rel="noopener">MATLAB Functions for Multiple View Geometry</a></p>
+<h2 id="9-CVonline-Vision-Related-Books-including-Online-Books-and-Book-Support-Sites"><a href="#9-CVonline-Vision-Related-Books-including-Online-Books-and-Book-Support-Sites" class="headerlink" title="9.CVonline: Vision Related Books including Online Books and Book Support Sites"></a>9.CVonline: Vision Related Books including Online Books and Book Support Sites</h2><p>  link:<a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/books.htm" target="_blank" rel="noopener">CVonline</a></p>
+<h2 id="10-CMU"><a href="#10-CMU" class="headerlink" title="10.CMU"></a>10.CMU</h2><p>  link:<a href="http://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/v-groups.html" target="_blank" rel="noopener">Computer Vison Research Groups</a></p>
+<h2 id="11-stanford"><a href="#11-stanford" class="headerlink" title="11.stanford"></a>11.stanford</h2><p>  link:<a href="http://ai.stanford.edu/~asaxena/reconstruction3d/" target="_blank" rel="noopener">3-D Reconstruction from a Single Still Image</a></p>
+<h2 id="12-Camera-Calibration-Toolbox-for-Matlab"><a href="#12-Camera-Calibration-Toolbox-for-Matlab" class="headerlink" title="12.Camera Calibration Toolbox for Matlab"></a>12.Camera Calibration Toolbox for Matlab</h2><p>  link:<a href="http://www.vision.caltech.edu/bouguetj/calib_doc/" target="_blank" rel="noopener">Camera Calibration Toolbox for Matlab</a>      </p>
+<h2 id="13-人物主页"><a href="#13-人物主页" class="headerlink" title="13.人物主页"></a>13.人物主页</h2><p>  <a href="https://people.eecs.berkeley.edu/~jordan/" target="_blank" rel="noopener">Michael I. Jordan</a><br>  <a href="https://www.andrewng.org/" target="_blank" rel="noopener">Andrew Ng</a><br> <a href="https://cs.stanford.edu/people/asaxena/index.html" target="_blank" rel="noopener">Ashutosh Saxena</a><br>  <a href="http://www.cs.cmu.edu/~efros/" target="_blank" rel="noopener">Alexei (Alyosha) Efros</a><br>   <a href="http://www.cs.cmu.edu/~hebert/" target="_blank" rel="noopener">Martial Hebert</a><br>   <a href="https://www.cs.ubc.ca/~lowe/" target="_blank" rel="noopener">David Lowe</a><br>   <a href="http://jgmalcolm.com/" target="_blank" rel="noopener">James Malcolm</a><br>   <a href="http://users.cecs.anu.edu.au/~sgould/index.html" target="_blank" rel="noopener">Stephen Gould</a><br>   <a href="">Mubarak Shah</a></p>
+<h2 id="14-实验室主页"><a href="#14-实验室主页" class="headerlink" title="14.实验室主页"></a>14.实验室主页</h2><p>   <a href="https://www.csail.mit.edu/" target="_blank" rel="noopener">MIT CSAIL</a><br>   <a href="https://grail.cs.washington.edu/" target="_blank" rel="noopener">GRAIL</a><br>   <a href="https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/" target="_blank" rel="noopener">UC Berkeley CV Rroup</a><br>   <a href="http://www.cs.cmu.edu/~cil/vision.html" target="_blank" rel="noopener">CMU CV Homepage</a><br>   <a href="http://www.vision.ee.ethz.ch/en/" target="_blank" rel="noopener">ETHZ Computer Vision Group</a><br>   <a href="http://www.zjucvg.net/" target="_blank" rel="noopener">浙江大学 CV Group and CAD&amp;CG lab</a><br>   <a href="https://video.ee.ntu.edu.tw/" target="_blank" rel="noopener">DSPIC</a><br>   <a href="http://vision.middlebury.edu/" target="_blank" rel="noopener">middlebury</a><br>   <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/" target="_blank" rel="noopener">TUDelft</a></p>
+<h2 id="15-网址汇总"><a href="#15-网址汇总" class="headerlink" title="15.网址汇总"></a>15.网址汇总</h2><p>   <a href="http://wiki.opencv.org.cn/index.php/%e9%a6%96%e9%a1%b5" target="_blank" rel="noopener">Opecv中文网站</a><br>   <a href="http://www.wikicfp.com/cfp/" target="_blank" rel="noopener">wikicfp</a><br>   <a href="http://conferences.visionbib.com/Iris-Conferences.html" target="_blank" rel="noopener">visionbib</a><br>   <a href="http://www.cvpapers.com/" target="_blank" rel="noopener">CVPapers</a><br>   <a href="http://videolectures.net/" target="_blank" rel="noopener">video lectures</a><br>   <a href="http://vision.middlebury.edu/" target="_blank" rel="noopener">Make3D</a></p>
+
+        
+    </article>
+    <footer class="cube-excerpt-footer">
+        <a class="cube-excerpt-more" href="smolan.github.io/2019/11/19/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%BD%91%E7%AB%99%E5%AF%BC%E8%88%AA/">Read More</a>
+    </footer>
+</div>
+
+<div class="cube-excerpt" id="cube-excerpt-Start Hexo">
+    <header class="cube-excerpt-header">
+        <h1><a href="smolan.github.io/2019/11/18/hello-world/">Start Hexo</a></h1>
+        <div class="cube-excerpt-header-msg">
+            <div class="cube-excerpt-date">
+                <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
+                2019-11-18
+            </div>
+            <div class="cube-excerpt-tags">
+                <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
+                
+            </div>
+        </div>
+    </header>
+    <article class="cube-excerpt-entry cube-markdown">
+        
+        
+           <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+        
+    </article>
+    <footer class="cube-excerpt-footer">
+        <a class="cube-excerpt-more" href="smolan.github.io/2019/11/18/hello-world/">Read More</a>
+    </footer>
+</div>
+
+
+
+<ul class="cube-pagination cube-pagination-6">
+    
+    <li class="cube-pagination-prev disabled">
+        <span>« Prev</span>
+    </li>
+    
+    
+        
+            
+            <li class="cube-pagination-index disabled">
+                <span>1</span>
+            </li>
+            
+        
+    
+
+    
+    <li class="cube-pagination-next disabled">
+        <span>Next »</span>
+    </li>
+    
+</ul>
+
+<!--其他组件后续添加-->
+        </div>
+        <div class="cube-right">
+            
+
+<div class="cube-search cube-sidebar" id="cube-search">
+    <div class="search-container">
+        <input type="text" placeholder="Search" class="cube-search-input" id="cube-search-input">
+        <i class="cube-icon cube-icon-search cube-search-submit" aria-hidden="true"></i>
+    </div>
+    <!-- TODO 通过给window赋一个全局变量，通过脚本赋值 -->
+</div>
+<script>
+    (function (window) {
+        'use strict';
+        window.searchModule = {}
+        window.searchModule.JSONUrl = 'smolan.github.io/content.json'
+        window.searchModule.rootUrl = 'smolan.github.io/'
+    })(window)
+</script>
+<div class="cube-search-form">
+    <div class="cube-search-control">
+        <input type="text" placeholder="Search" class="search-input">
+        <a class="close-button">
+            <i class="cube-icon cube-close" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class="cube-search-result"></div>
+</div>
+
+
+<div class="cube-author cube-sidebar" id="cube-author">
+    
+    
+    <span>Molan</span>
+    
+    
+    <div class="count">
+        <a class="count articles"><span>2</span>Article</a>
+        <a class="count tags"><span>0</span>Tags</a>
+        <a class="count categories"><span>0</span>Categories</a>
+    </div>
+</div>
+
+
+
+<div class="cube-music cube-sidebar" id="cube-music">
+    <div class="cube-player aplayer" id="cube-player"></div>
+</div>
+<script>
+    (function (window) {
+        window.musicModule = {}
+        window.musicModule.musicConfig = '{"narrow":false,"autoplay":false,"showlrc":3,"theme":"#b7daff","mutex":true,"mode":"circulation","preload":"auto","listmaxheight":"513px","music":[{"title":"Dear friends","author":"TRIPLANE","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/TRIPLANE - Dear friends.mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/TRIPLANE - Dear friends.jpg"},{"title":"Butter-Fly","author":"和田光司","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/和田光司 - Butter-Fly (ピアノヴァージョン).mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Butter-Fly (ピアノヴァージョン) - 和田光司.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/和田光司 - Butter-Fly (ピアノヴァージョン).jpg"},{"title":"宵闇花火","author":"葉月ゆら","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/葉月ゆら - 宵闇花火.mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/宵闇花火 - 葉月ゆら.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/葉月ゆら - 宵闇花火.jpg"}]}'
+        window.musicModule.lrcConfig = {
+            open: 'Open Lyrics',
+            close: 'Close Lyrics'
+        }
+    })(window)
+</script>
+
+
+
+<div class="cube-recent-posts cube-sidebar" id="cube-recent-posts">
+    <div class="title">
+        <a>Recent Posts</a>
+    </div>
+    <ul class="list">
+        
+        
+        <li>
+            <!-- TODO 如果文章要显示图片，那么在front-matter上添加preview属性(url or path) -->
+            
+            <div class="normal">
+                <p class="index first">
+                    <span>1</span>
+                </p>
+                <p class="title">
+                    <a href="smolan.github.io/2019/11/19/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89%E7%BD%91%E7%AB%99%E5%AF%BC%E8%88%AA/" title="机器视觉网站导航">机器视觉网站导航</a>
+                </p>
+            </div>
+            
+        </li>
+        
+        
+        
+        <li>
+            <div class="normal">
+                <p class="index">
+                    <span>2</span>
+                </p>
+                <p class="title">
+                    <a href="smolan.github.io/2019/11/18/hello-world/" title="Start Hexo">Start Hexo</a>
+                </p>
+            </div>
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+
+
+
+
+
+<div class="cube-links cube-sidebar" id="cube-links">
+    <div class="title">
+        <a>Links</a>
+    </div>
+    <ul class="list">
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/GitHub.png">
+            
+            <a href="https://github.com/ZEROKISEKI" target="_blank">GitHub</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/Coding.png">
+            
+            <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/SF.png">
+            
+            <a href="https://segmentfault.com/u/aonosora" target="_blank">SF社区</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png">
+            
+            <a href="https://toutiao.io/u/148070" target="_blank">开发者头条</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+<div class="cube-friend-links cube-sidebar" id="cube-friend-links">
+    <div class="title">
+        <a>Friend Links</a>
+    </div>
+    <ul class="list">
+        
+        <li>
+            <!-- TODO change avatar.png to friend.png-->
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/friend_links/micblo.png">
+            <a href="https://blog.micblo.com/" target="_blank">罗大佬</a>
+        </li>
+        
+        <li>
+            <!-- TODO change avatar.png to friend.png-->
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg">
+            <a href="https://www.anotherhome.net/" target="_blank">DIYgod</a>
+        </li>
+        
+        <li>
+            <!-- TODO change avatar.png to friend.png-->
+            <img src="smolan.github.io/images/friend_links.jpg ">
+            <a href="https://aonosora.com/" target="_blank">咪西西の部落格</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+    </div>
+</div>
+<footer class="cube-footer">
+    
+© 2017 Molan
+
+<br>
+Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+</footer>
+<!-- inject:script -->
+<script src="smolan.github.io/js/script.js"></script>
+<!-- endinject -->
+<div class="cube-loading out"></div>
+<script src="smolan.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
