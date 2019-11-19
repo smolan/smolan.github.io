@@ -213,25 +213,6 @@
 
 <!-- TODO 根据theme.comment的内容进行入口选择 -->
 
-    <!-- 因为gitment里面也有gitment-container，所以这里就改为gitment-comment -->
-<div class="gitment-comment">
-    <div id="container"></div>
-</div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-        // id default is location.href
-        owner: 'smolan',
-        repo: 'smolan.github.io',
-        oauth: {
-            client_id: '315e46c1870f4d74648e',
-            client_secret: '9e8a275af41c5a913a9205de8304d929d8b63e99',
-        },
-    })
-    gitment.render('container')
-</script>
-    
 
 <!--gitment 评论-->
   <div class="comments" id="comments">
